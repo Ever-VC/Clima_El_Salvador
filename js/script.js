@@ -164,7 +164,7 @@ const limpiarTodo = () => {
     pHumedad.textContent = "--%";
     pViento.textContent = "-- km/h";
     pTemp.textContent = "--°C";
-    imagen.src = "../imgs/fewclouds.png";
+    imagen.src = "./imgs/fewclouds.png";
 }
 
 cuerpo.addEventListener("mouseover", () => {
