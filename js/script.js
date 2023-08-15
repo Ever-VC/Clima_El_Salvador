@@ -125,7 +125,7 @@ const mostrarClima = async(departamento) => {
                 weather[0].main == "Squall") {
                     imagen.src = "./imgs/mist.png";
         }
-    } else if (hora.getHours() < amanecer.getHours() && hora.getHours() >= atardecer.getHours()) {
+    } else {
         //NOCHE
         icon.src = "./imgs/moon.png";
         if (weather[0].main == "Thunderstorm") {
