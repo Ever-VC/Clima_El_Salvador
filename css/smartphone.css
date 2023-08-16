@@ -1,0 +1,80 @@
+@media only screen and (max-width: 768px) {
+    body {
+        height: auto;
+    }
+    
+    .titulo {
+        margin-top: 10px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-areas: 
+            "mapa"
+            "datos"
+        ;
+        row-gap: 25px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        padding: 3%;
+    }
+
+    .datos {
+        width: 60%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .image {
+        height: 100px;
+    }
+
+    .headClima img {
+        width: 15px;
+        height: 15px;
+        
+    }
+
+    .clima-icono {
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    .clima h1 {
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .col {
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    .col:nth-child(2) {
+        margin-left: 5px;
+    }
+
+    .col img {
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    .humedad, .viento {
+        margin-left: auto;
+        font-size: 18px;
+        margin-top: 6px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+        footer {
+            display: none;
+        }
+}
